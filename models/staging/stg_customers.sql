@@ -1,6 +1,7 @@
 {{ config(
     materialized='table'
-) }}
+)
+}}
 
 with source as (
 
@@ -20,3 +21,4 @@ renamed as (
 )
 
 select * from renamed
+
